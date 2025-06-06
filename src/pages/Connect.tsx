@@ -11,7 +11,7 @@ function Connect() {
       onLoad={()=>"this.rel='stylesheet'"}
       href="https://fonts.googleapis.com/css2?display=swap&family=Inter%3Awght%40400%3B500%3B700%3B900&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
-    <title>Stitch Design</title>
+    <title>Connect</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     <div
       className="relative flex size-full min-h-screen flex-col bg-[#121516] dark group/design-root overflow-x-hidden"
@@ -94,9 +94,9 @@ function Connect() {
                 <div className="flex h-full flex-1 flex-col gap-4 text-center rounded-lg min-w-32 pt-4">
                   <div
                     className="bg-center bg-no-repeat aspect-square bg-cover rounded-full flex flex-col self-center w-full"
-                    style={{
-                      backgroundImage: 'url("quant_community_logo.jpeg")'
-                    }}
+                    // style={{
+                    //   backgroundImage: 'url("quant_community_logo.jpeg")'
+                    // }}
                   />
                   <div>
                     <p className="text-white text-base font-medium leading-normal">
@@ -110,7 +110,7 @@ function Connect() {
                 <div className="flex h-full flex-1 flex-col gap-4 text-center rounded-lg min-w-32 pt-4">
                   <div
                     className="bg-center bg-no-repeat aspect-square bg-cover rounded-full flex flex-col self-center w-full"
-                    style={{ backgroundImage: 'url(" shoe.jpeg")' }}
+                    // style={{ backgroundImage: 'url(" shoe.jpeg")' }}
                   />
                   <div>
                     <p className="text-white text-base font-medium leading-normal">
