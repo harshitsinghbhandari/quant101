@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 function Projects() {
     return (
-      <div className="page projects">
+      <div className="page">
         <h1>Projects</h1>
         {
             <>

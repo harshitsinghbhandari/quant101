@@ -1,6 +1,6 @@
 function Connect() {
     return (
-      <div className="page connect">
+      <div className="page">
         <h1>Connect</h1>
         {
     <>

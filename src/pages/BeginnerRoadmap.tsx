@@ -1,6 +1,6 @@
 function BeginnerRoadmap() {
     return (
-      <div className="page roadmap">
+      <div className="page">
         <h1>beginner</h1>
         {
             <>

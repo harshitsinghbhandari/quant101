@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 function Home() {
     return (
-      <div className="page home">
+      <div className="page">
         <h1>Home</h1>
         {
     <>

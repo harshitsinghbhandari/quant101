@@ -1,4 +1,8 @@
-.github-repo-container {
+/* src/global.css */
+@import "tailwindcss";
+
+
+/* .github-repo-container {
   padding: 3px;
   background: linear-gradient(180deg, #f3aefe, #8d35d3);
   border-radius: 19px;
@@ -152,7 +156,7 @@ body {
         }
       }
       /* From Uiverse.io by narmesh_sah */ 
-.btn-container {
+/* .btn-container {
   position: relative;
   width: 200px;
   height: 60px;
@@ -328,4 +332,4 @@ body {
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
-}
+}  */
