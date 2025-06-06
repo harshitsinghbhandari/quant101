@@ -41,31 +41,31 @@ function Navbar() {
                     <div className="flex items-center gap-9">
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101-iitb/"
+                        to="/quant101/"
                       >
                         Home
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101-iitb/about/"
+                        to="/quant101/about/"
                       >
                         About
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101-iitb/projects/"
+                        to="/quant101/projects/"
                       >
                         Projects
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101-iitb/resources/"
+                        to="/quant101/resources/"
                       >
                         Resources
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101-iitb/connect/"
+                        to="/quant101/connect/"
                       >
                         Contact
                       </Link>
