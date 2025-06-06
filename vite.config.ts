@@ -3,13 +3,13 @@
 
 // // https://vite.dev/config/
 // export default defineConfig({
+  // Replace with your actual repo name!
 //   plugins: [react()],
 // })
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// Replace with your actual repo name!
 const repoName = 'quant101'
 
 export default defineConfig({

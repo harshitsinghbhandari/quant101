@@ -30,7 +30,7 @@ function Navbar() {
                         </defs>
                       </svg>
                     </div>
-                    <Link to="/quant101/">
+                    <Link to="/">
                       {" "}
                       <h2 className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">
                         Quant 101
@@ -41,31 +41,31 @@ function Navbar() {
                     <div className="flex items-center gap-9">
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101/"
+                        to="/"
                       >
                         Home
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101/about/"
+                        to="/about/"
                       >
                         About
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101/projects/"
+                        to="/projects/"
                       >
                         Projects
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101/resources/"
+                        to="/resources/"
                       >
                         Resources
                       </Link>
                       <Link
                         className="text-white text-sm font-medium leading-normal"
-                        to="/quant101/connect/"
+                        to="/connect/"
                       >
                         Contact
                       </Link>

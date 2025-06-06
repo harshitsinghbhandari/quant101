@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
-function Home() {
+import React from "react";
+const Home: React.FC = () =>{
     return (
       <div className="page">
         <h1>Home</h1>
@@ -12,7 +13,7 @@ function Home() {
       onLoad={()=> "this.rel='stylesheet'"}
       href="https://fonts.googleapis.com/css2?display=swap&family=Inter%3Awght%40400%3B500%3B700%3B900&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/index.css" />
     <title>landing page</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     {/* Loader */}
@@ -98,5 +99,5 @@ function Home() {
     );
   }
   
-  export default Home;
-  
+export default Home;
+
